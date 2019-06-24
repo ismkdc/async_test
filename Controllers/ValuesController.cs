@@ -20,6 +20,15 @@ namespace async_test.Controllers
             return new string[] { "value1", "value2" };
         }
 
+        // GET api/values
+        [HttpGet("syncget")]
+        public ActionResult<IEnumerable<string>> Get()
+        {
+            _ = DoHeavyAsyncJob().Result;
+
+            return new string[] { "value1", "value2" };
+        }
+
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
@@ -45,9 +54,10 @@ namespace async_test.Controllers
         {
         }
 
-        private async Task DoHeavyAsyncJob()
+        private async Task<string> DoHeavyAsyncJob()
         {
             var result = await new WebClient().DownloadStringTaskAsync("http://212.183.159.230/5MB.zip");
+            return "a";
         }
     }
 }
