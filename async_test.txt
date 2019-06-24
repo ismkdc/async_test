@@ -1,0 +1,45 @@
+ubuntu@ip-172-31-43-9:~$ ab -n 10 -c 10 https://localhost:5001/api/values
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient).....done
+
+
+Server Software:        Kestrel
+Server Hostname:        localhost
+Server Port:            5001
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES256-GCM-SHA384,2048,256
+TLS Server Name:        localhost
+
+Document Path:          /api/values
+Document Length:        19 bytes
+
+Concurrency Level:      10
+Time taken for tests:   3.726 seconds
+Complete requests:      10
+Failed requests:        0
+Total transferred:      1580 bytes
+HTML transferred:       190 bytes
+Requests per second:    2.68 [#/sec] (mean)
+Time per request:       3726.048 [ms] (mean)
+Time per request:       372.605 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.41 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       54   67   6.1     70      74
+Processing:  1694 2597 722.9   2630    3661
+Waiting:     1694 2596 722.7   2630    3660
+Total:       1768 2664 721.9   2692    3726
+
+Percentage of the requests served within a certain time (ms)
+  50%   2692
+  66%   2692
+  75%   3422
+  80%   3423
+  90%   3726
+  95%   3726
+  98%   3726
+  99%   3726
+ 100%   3726 (longest request)
