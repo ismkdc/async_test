@@ -1,0 +1,14 @@
+C:\Users\ismail\source\repos\async_test\async_test\bin\Debug\netcoreapp2.2\async_test.deps.json
+C:\Users\ismail\source\repos\async_test\async_test\bin\Debug\netcoreapp2.2\async_test.runtimeconfig.json
+C:\Users\ismail\source\repos\async_test\async_test\bin\Debug\netcoreapp2.2\async_test.runtimeconfig.dev.json
+C:\Users\ismail\source\repos\async_test\async_test\bin\Debug\netcoreapp2.2\async_test.dll
+C:\Users\ismail\source\repos\async_test\async_test\bin\Debug\netcoreapp2.2\async_test.pdb
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.csprojAssemblyReference.cache
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.csproj.CoreCompileInputs.cache
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.RazorAssemblyInfo.cache
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.RazorAssemblyInfo.cs
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.AssemblyInfoInputs.cache
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.AssemblyInfo.cs
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.RazorTargetAssemblyInfo.cache
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.dll
+C:\Users\ismail\source\repos\async_test\async_test\obj\Debug\netcoreapp2.2\async_test.pdb
